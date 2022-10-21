@@ -8,7 +8,7 @@
 - name: Inventory file setup
   template:
     src: hosts.j2
-    dest: /home/devops/ansible_implementation/hosts
+    dest: /home/devops/ansible_implementation/inventory/hosts
     force: yes
 - name: Create html directory
   file:
